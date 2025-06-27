@@ -40,22 +40,25 @@ competitive-programming-profile-analyzer/
 To get started, follow these simple steps:
 
 1. **Clone the Repository**
+   ```bash
    git clone https://github.com/your-username/automated-coding-stats-tracker.git
    cd automated-coding-stats-tracker
-   ```
+   
 3. **Create a Virtual Environment** (optional)
+   ```bash
    python -m venv venv
    source venv/bin/activate       # On Windows: venv\Scripts\activate
    ```
-4. **Install Required Libraries**
+5. **Install Required Libraries**
+   ```bash
    pip install -r requirements.txt
    
-5. **Open in VS Code**
+7. **Open in VS Code**
     Make sure the Python extension is installed.
     Open Automated_Stats_Tracker.ipynb.
     Run the notebook cells using Shift + Enter or the ▶️ button.
    
-6.  **Enter Your Info**
+8.  **Enter Your Info**
 
 When prompted, enter your:
 
@@ -66,7 +69,7 @@ When prompted, enter your:
 🖥 Example Output
 Platform	TotalSolved	Easy	Medium	Hard	Rating
 LeetCode	 245         95	   120	  30    Not Rated
-Codeforces	0	         N/A	 N/A	  N/A	    0
+Codeforces	0	       N/A	   N/A	  N/A	    0
 
 📌 LeetCode rating is "Not Rated" if you haven’t participated in contests.
 📌 Codeforces will show a 0 rating and N/A stats if you haven’t solved problems or entered contests.
